@@ -1,0 +1,28 @@
+.score {
+    color: white;
+
+}
+
+
+#cardContainer {
+    border: 2px solid rgb(212, 212, 212);
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(197, 197, 197);
+    ;
+}
+
+#cardContainer img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+#scoreButtons {
+    justify-content: space-evenly;
+}
+
+.score {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
