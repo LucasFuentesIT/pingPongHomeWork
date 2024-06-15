@@ -9,7 +9,8 @@
     padding: 0px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgb(197, 197, 197);
-    ;
+    justify-content: center;
+    width: 80vw;
 }
 
 #cardContainer img {
@@ -25,4 +26,10 @@
 .score {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+@media screen and (min-width:722px) {
+    #cardContainer {
+        width: 50vw;
+    }
 }
